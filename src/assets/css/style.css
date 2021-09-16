@@ -47,18 +47,17 @@
     form button:active {
         background-color: aqua;
     }
-    .pars{
-        text-align: left;
+    .senha-gerada{
+        font-size: 2em;
+        color: var(--primary-color);
+        margin: 40px 0;
     }
-    .start{
-        margin-top: 40px;
-        border: 0;
-        width: 100%;
-        margin: 0 auto;
-        cursor: pointer;
-        height: 35px;
-        line-height: 35px;
-        background-color: rgb(28, 31, 59);
-        color: white;
-        text-transform: uppercase;
+    input[type="checkbox"]{
+        width: 25px;
+        height: 25px;
+    }
+    button{
+        display: block;
+        margin: 40px 0;
+        font-size: 1em;
     }
